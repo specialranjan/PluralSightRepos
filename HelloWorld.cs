@@ -18,6 +18,10 @@ public class HellowWorld
     {
         Console.WriteLine(Convert.ToString(dblNumber));
     }
+    public void printFormattedMessage(string sMessage)
+    {
+        Console.WriteLine(sMessage);
+    }
 }
 
 public class Calculator
