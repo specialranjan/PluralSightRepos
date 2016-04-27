@@ -14,4 +14,16 @@ public class HellowWorld
     {
         Console.WriteLine(Convert.ToString(nNumber));
     }
+    public void PrintDoubel(double dblNumber)
+    {
+        Console.WriteLine(Convert.ToString(dblNumber));
+    }
+}
+
+public class Calculator
+{
+    public int Add(int num1, int num2)
+    {
+        return num1 + num1;
+    }
 }
